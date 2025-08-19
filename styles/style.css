@@ -12,7 +12,7 @@
 .header__links-list {
   display: flex;
   gap: 32px;
-  list-style: circle;   
+  list-style: circle;
   text-underline-offset: 3px;
 }
 
@@ -35,7 +35,7 @@
 
 .header__logo {
   display: block;
-  width: 148px;   
+  width: 148px;
 }
 
 .address {
@@ -53,7 +53,7 @@
   flex-direction: column;
   justify-self: end;
   align-items: flex-start;
-  max-width: 240px; 
+  max-width: 240px;
 }
 
 .cover {
@@ -64,7 +64,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 165px 50px 50px 50px; 
+  padding: 165px 50px 50px 50px;
 }
 
 .cover__title {
@@ -154,7 +154,7 @@
   font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #000;  
+  color: #000;
   margin-left: 40px;
   padding-bottom: 27px;
 }
@@ -287,7 +287,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  align-items: start; 
+  align-items: start;
   padding: 0 50px;
   height: 180px;
 }
