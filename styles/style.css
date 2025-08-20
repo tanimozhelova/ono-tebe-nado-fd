@@ -1,7 +1,7 @@
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  align-items: center;  
+  align-items: center;
   height: 293px;
   padding-top: 92px;
   padding-bottom: 96px;
@@ -11,9 +11,10 @@
 
 .header__links-list {
   display: flex;
-  gap: 32px;
+  gap: 33px;
   list-style: circle;
   text-underline-offset: 3px;
+  margin-top: -4px;
 }
 
 .header__link_active {
@@ -54,6 +55,8 @@
   justify-self: end;
   align-items: flex-start;
   max-width: 240px;
+  margin-top: -5px;
+  margin-right: -1px;
 }
 
 .cover {
