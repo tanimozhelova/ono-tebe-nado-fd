@@ -296,7 +296,6 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: start;
   padding: 0 50px;
-  height: 180px;
 }
 
 .footer__address {
